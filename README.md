@@ -12,7 +12,7 @@ springboot模块化+集成mybatis连接mysql 框架
 
 ##版本
  框架 | 版本   
- --- |----   
+ --- | ----   
 springboot | 2.1.7.RELEASE
 mybatis | 1.3.2 
 mysql-connector-java | 5.1.39 
