@@ -1,5 +1,6 @@
 package com.keyvin.demo.server.controller;
 
+import com.keyvin.demo.api.config.ResultBody;
 import com.keyvin.demo.model.entity.User;
 import com.keyvin.demo.server.service.dubbo.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,7 @@ public class ServerController {
     @RequestMapping("/server")
     public String index(){
         User user = userService.findById(2);
-        return "hello ServerController index"+user.getName();
+        String message = "hello ServerController index"+user.getName();
+        return ResultBody.success(message);
     }
 }

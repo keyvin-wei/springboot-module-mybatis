@@ -12,6 +12,14 @@
     <artifactId>api</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
         <!-- SpringBoot web starter -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
