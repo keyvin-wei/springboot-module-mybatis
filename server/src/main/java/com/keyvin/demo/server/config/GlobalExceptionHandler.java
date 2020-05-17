@@ -1,5 +1,7 @@
-package com.keyvin.demo.api.config;
+package com.keyvin.demo.server.config;
 
+import com.keyvin.demo.api.config.ResponseEnum;
+import com.keyvin.demo.api.config.ResultBody;
 import com.keyvin.demo.api.exception.CustomException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -5,10 +5,10 @@ springboot模块化+集成mybatis连接mysql 框架
 ### module模块
 三个模块：api、model、server   
 + 相互依赖api<--model<--server   
-+ model集成mybatis连mysql
++ model作为数据库访问层，集成mybatis连mysql
     - dao接口在com.keyvin.demo.model.dao
     - mybatis映射xml文件在model/resources/mappers   
-+ server作为service层调用dao
++ server作为web controller层提供对外接口
 + 添加全局异常捕获及处理
 
 ## 版本

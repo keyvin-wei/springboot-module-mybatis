@@ -1,4 +1,4 @@
-package com.keyvin.demo.server.service.dubbo;
+package com.keyvin.demo.server.service;
 
 import com.keyvin.demo.model.entity.User;
 

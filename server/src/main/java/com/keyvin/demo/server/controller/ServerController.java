@@ -2,7 +2,7 @@ package com.keyvin.demo.server.controller;
 
 import com.keyvin.demo.api.config.ResultBody;
 import com.keyvin.demo.model.entity.User;
-import com.keyvin.demo.server.service.dubbo.UserService;
+import com.keyvin.demo.server.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
