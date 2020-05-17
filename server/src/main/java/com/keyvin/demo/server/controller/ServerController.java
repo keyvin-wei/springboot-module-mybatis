@@ -22,4 +22,14 @@ public class ServerController {
         String message = "hello ServerController index"+user.getName();
         return ResultBody.success(message);
     }
+
+    @RequestMapping("/server1")
+    public String error(){
+        String str = null;
+        if(str.equals("d")){
+            System.out.println(11111);
+        }
+        return ResultBody.success();
+    }
+
 }

@@ -9,6 +9,7 @@ springboot模块化+集成mybatis连接mysql 框架
     - dao接口在com.keyvin.demo.model.dao
     - mybatis映射xml文件在model/resources/mappers   
 + server作为service层调用dao
++ 添加全局异常捕获及处理
 
 ## 版本
 

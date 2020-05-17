@@ -6,7 +6,9 @@ package com.keyvin.demo.api.config;
  */
 public enum ResponseEnum {
     SUCCESS(200, "成功"),
-    INNER_SERVER_ERROR(500, "系统内部错误");
+    PARAMETER_ERROR(400, "请求参数异常！"),
+    REQUEST_METHOD_ERROR(401, "请求方法不正确，请检查是GET还是POST！"),
+    INNER_SERVER_ERROR(500, "系统内部错误！");
 
     /**
      * 返回码
